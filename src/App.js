@@ -7,7 +7,7 @@ import { purple } from '@material-ui/core/colors'
 const theme = createMuiTheme({
 	palette: {
 		primary: {
-			main: '#fefefe',
+			main: 'rgba(0, 0, 0, 0.54);',
 		},
 		secondary: purple,
 	},
