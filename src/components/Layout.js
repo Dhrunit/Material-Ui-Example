@@ -106,7 +106,7 @@ export default function Layout({ children }) {
 							key={item.text}
 							onClick={() => history.push(item.path)}
 							className={
-								location.pathname == item.path
+								location.pathname === item.path
 									? classes.active
 									: null
 							}>
